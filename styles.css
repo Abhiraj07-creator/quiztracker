@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #003366, #66a6ff);
+    margin: 0;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Increased gap for better spacing */
+    background-color: #ffffff;
+    padding: 20px; /* Increased padding for larger columns */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team:nth-child(1) {
+    background-color: #ff6666; /* Red for Eagles */
+}
+
+.team:nth-child(2) {
+    background-color: #000080; /* Navy Blue for Falcons */
+    color: #ffffff; /* White text to contrast with dark background */
+}
+
+.team:nth-child(3) {
+    background-color: #ffeb3b; /* Yellow for Hawks */
+}
+
+.team:nth-child(4) {
+    background-color: #4caf50; /* Green for Kites */
+}
+
+.team img {
+    width: 100px; /* Increased size for the images */
+    height: 80px; /* Increased size for the images */
+}
+
+button {
+    background-color: #1e88e5;
+    border: none;
+    color: white;
+    padding: 10px 20px; /* Increased padding for buttons */
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px; /* Increased font size for buttons */
+}
+
+button:hover {
+    background-color: #1565c0;
+}
